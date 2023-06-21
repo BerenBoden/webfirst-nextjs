@@ -150,10 +150,10 @@ export default function Example() {
             href="/"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Marketplace
+            Articles
           </Link>
           <Link
-            href="/about"
+            href="/articles"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             About
@@ -161,7 +161,7 @@ export default function Example() {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
-            href="#"
+            href="/login"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Log in <span aria-hidden="true">&rarr;</span>

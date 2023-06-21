@@ -5,13 +5,31 @@ import PortfolioCard from "../elemets.tsx/PortfolioCard";
 
 const projects = [
   {
-    name: "Jane Cooper",
-    title: "Paradigm Representative",
-    role: "Admin",
-    link: "firesidecandles.co.nz",
-    email: "janecooper@example.com",
-    imageUrl: "portfolio_1.png",
+    id: 1,
+    name: "firesidecandles.co.nz",
+    href: "#",
+    liveSlug: "https://firesidecandles.co.nz",
+    slug: "firesidecandles.co.nz",
+    description:
+      "E-commerce store selling candles, currently running Enterprise plan with content creation, SEO audits, and more...",
+    options: "Next.js Strapi TailwindCSS",
+    imageSrc: "portfolio_1.png",
+    imageAlt:
+      "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
   },
+  // {
+  //   id: 2,
+  //   name: "Basic Tee",
+  //   href: "#",
+  //   price: "$32",
+  //   description:
+  //     "Look like a visionary CEO and wear the same black t-shirt every day.",
+  //   options: "Black",
+  //   imageSrc:
+  //     "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-02.jpg",
+  //   imageAlt: "Front of plain black t-shirt.",
+  // },
+  // More products...
 ];
 
 export default function Portfolio() {
@@ -22,7 +40,7 @@ export default function Portfolio() {
           Portfolio
         </h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-black sm:text-4xl">
-          Here is some of our work...
+          Some of our work...
         </p>
       </div>
       <ul

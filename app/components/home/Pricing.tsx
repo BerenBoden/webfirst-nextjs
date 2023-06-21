@@ -127,7 +127,7 @@ export default function Example() {
           <RadioGroup
             value={frequency}
             onChange={setFrequency}
-            className="grid grid-cols-2 gap-x-1 rounded-full bg-white/5 p-1 text-center text-xs font-semibold leading-5 text-white"
+            className="grid grid-cols-2 gap-x-1  bg-white/5 p-1 text-center text-xs font-semibold leading-5 text-white"
           >
             <RadioGroup.Label className="sr-only">
               Payment frequency
@@ -139,7 +139,7 @@ export default function Example() {
                 className={({ checked }) =>
                   classNames(
                     checked ? "bg-indigo-500" : "",
-                    "cursor-pointer rounded-full px-2.5 py-1"
+                    "cursor-pointer  px-2.5 py-1"
                   )
                 }
               >
@@ -156,7 +156,7 @@ export default function Example() {
                 tier.mostPopular
                   ? "bg-white/5 ring-2 ring-indigo-500"
                   : "ring-1 ring-white/10",
-                "rounded-3xl p-8 xl:p-10"
+                "p-8 xl:p-10"
               )}
             >
               <div className="flex items-center justify-between gap-x-4">
@@ -167,7 +167,7 @@ export default function Example() {
                   {tier.name}
                 </h3>
                 {tier.mostPopular ? (
-                  <p className="rounded-full bg-indigo-500 px-2.5 py-1 text-xs font-semibold leading-5 text-white">
+                  <p className=" bg-indigo-500 px-2.5 py-1 text-xs font-semibold leading-5 text-white">
                     Most popular
                   </p>
                 ) : null}
