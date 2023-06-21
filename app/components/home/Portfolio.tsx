@@ -11,7 +11,7 @@ const projects = [
     liveSlug: "https://firesidecandles.co.nz",
     slug: "firesidecandles.co.nz",
     description:
-      "E-commerce store selling candles, currently running Enterprise plan with content creation, SEO audits, and more...",
+      "(Under construction) E-commerce store selling candles, currently running Enterprise plan with content creation, SEO audits, and more...",
     options: "Next.js Strapi TailwindCSS",
     imageSrc: "portfolio_1.png",
     imageAlt:
