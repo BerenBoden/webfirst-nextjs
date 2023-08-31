@@ -63,7 +63,7 @@ const tiers = [
       "Custom API development with Express.js or other Server-Side languages",
       "Custom Web Applications Development",
       "Priority 24/7 Support",
-      "A dedicated project manager for your project",
+      "A dedicated admin panel to manage your entire website",
       "Database design and optimization",
     ],
     mostPopular: false,
