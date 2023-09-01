@@ -98,7 +98,19 @@ export default function Footer() {
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <Logo />
+          <div>
+            <Logo />
+            <div className="mt-6">
+              <a
+                href="https://berenboden.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="text-xs font-semibold leading-6 text-gray-900 h-24"
+              >
+                Built by berenboden.com
+              </a>
+            </div>
+          </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
@@ -141,6 +153,7 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">
                   Company
                 </h3>
+
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
